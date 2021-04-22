@@ -1,0 +1,140 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #29b5e8;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #0064bd;
+}
+
+.container {
+    float: left;
+    width: 97%;
+    padding: 1px;
+}
+
+.container1 {
+    float: left;
+    width: 83%;
+    border-radius: 5px;
+    background-color: orangered;
+    padding: 5px;
+    text-align:left;
+}
+
+
+.container2 {
+    float: right;
+    width: 10%;
+    border-radius: 5px;
+    background-color: white;
+    text-align: left;
+    align-content:center;
+    padding: 15px;
+}
+
+.container3 {
+    float:left;
+    width: 10%;
+    text-align: center;
+    border-radius: 3px;
+    background-color: floralwhite;
+    padding: 1px;
+}
+
+.container4 {
+    float: left;
+    width: 97%;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+}
+
+.container5 {
+    float: right;
+    width: 10%;
+    border-radius: 5px;
+    background-color: white;
+    text-align:center;
+    align-content: center;
+    padding: 5px;
+
+}
+
+.container6 {
+    float:right;
+    width: 20%;
+    border-radius: 5px;
+    background-color: gray;
+    text-align: left;
+}
+
+.container7 {
+    float: left;
+    width: 80%;
+    border-radius: 5px;
+    background-color: lightgray;
+    text-align: left;
+    padding:25px;
+}
+
+
+.container8 {
+    float: left;
+    width: 70%;
+    border-radius: 5px;
+    background-color: gray;
+    text-align: left;
+    padding: 10px;
+}
+
+.container9 {
+    float: left;
+    width: 83%;
+    border-radius: 5px;
+    background-color: lightgray;
+    text-align: left;
+    padding: 6px;
+}
+
+.container10 {
+    float: left;
+    width: 10%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: lightskyblue;
+    padding: 1px;
+}
+
+.col {
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
